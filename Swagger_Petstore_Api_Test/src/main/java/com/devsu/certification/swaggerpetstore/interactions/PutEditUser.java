@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.rest.interactions.Put;
 
 import java.util.Map;
 
-import static com.devsu.certification.swaggerpetstore.utils.Constans.*;
+import static com.devsu.certification.swaggerpetstore.utils.constants.Constans.*;
 
 public class PutEditUser implements Interaction {
 

@@ -24,6 +24,7 @@ Feature: As a petstore user I want to be able to create new users to enter the s
     And the response should contain the information of the created user
       | username   | firstName   | lastName   | email   | password   | phone   | userStatus   |
       | <username> | <firstName> | <lastName> | <email> | <password> | <phone> | <userStatus> |
+    And validate the schema of file json
     Examples:
       | username      | firstName | lastName  | email                   | password | phone      | userStatus | statusCode |
       | jhonatanpater | Jhonatan  | Paternina | jhonatanpater@gmail.com | abc123   | 3210000000 | 1          | 200        |

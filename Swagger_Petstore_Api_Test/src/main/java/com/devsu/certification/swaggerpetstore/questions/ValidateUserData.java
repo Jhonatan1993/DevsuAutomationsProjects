@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Map;
 
-import static com.devsu.certification.swaggerpetstore.utils.Constans.PATH_JSON_FILE;
+import static com.devsu.certification.swaggerpetstore.utils.constants.Constans.PATH_JSON_FILE;
 import static com.devsu.certification.swaggerpetstore.utils.ValidateData.validateUser;
 
 public class ValidateUserData implements Question<Boolean> {

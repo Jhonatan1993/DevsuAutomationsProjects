@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features/swaggerpetstore.feature"},
         glue = "com.devsu.certification.swaggerpetstore.stepdefinitions",
+        //tags = "@GetUserCreated",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class SwaggerPetstoreRunner {

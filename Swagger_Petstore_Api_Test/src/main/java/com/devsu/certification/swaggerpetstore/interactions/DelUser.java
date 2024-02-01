@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Delete;
 
-import static com.devsu.certification.swaggerpetstore.utils.Constans.*;
+import static com.devsu.certification.swaggerpetstore.utils.constants.Constans.*;
 
 public class DelUser implements Task {
 
