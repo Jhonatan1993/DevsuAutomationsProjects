@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.rest.interactions.Post;
 
 import java.util.Map;
 
-import static com.devsu.certification.swaggerpetstore.utils.Constans.*;
+import static com.devsu.certification.swaggerpetstore.utils.constants.Constans.*;
 
 public class PostCreateUser implements Interaction {
     private final Map<String, String> testData;

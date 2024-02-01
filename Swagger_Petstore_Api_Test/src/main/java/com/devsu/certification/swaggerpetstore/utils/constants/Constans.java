@@ -1,4 +1,5 @@
-package com.devsu.certification.swaggerpetstore.utils;
+package com.devsu.certification.swaggerpetstore.utils.constants;
+
 
 public class Constans {
 
